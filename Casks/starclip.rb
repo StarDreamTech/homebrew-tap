@@ -1,6 +1,6 @@
 cask "starclip" do
-  version "0.2.3"
-  sha256 "18457b1b5f5878dbdcc51ebcc9db90ecf9cc14263537a4d72525c24d7045a072"
+  version "0.2.4"
+  sha256 "640d2bd02a216ccd15a742cf6c47868390ad874440efede9c7c2d470f4df0ad2"
 
   url "https://github.com/cpython666/starclip/releases/download/v#{version}/Starclip_#{version}_aarch64.dmg"
   name "Starclip"
