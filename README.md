@@ -82,4 +82,4 @@ brew trust --formula cpython666/tap/starvault
 brew trust --cask cpython666/tap/starvault
 ```
 
-桌面 Cask 同时依赖 CLI 和 Python，应用内置后端代码与星匣图标。应用为 ad-hoc 签名，尚未 Apple 公证；安装说明以 [v0.1.0 Release](https://github.com/cpython666/starvault/releases/tag/v0.1.0) 为准。卸载不删除聊天备份、图片或 Skill；软件代码仓库与用户的私有聊天备份仓库独立。已有手动安装的 `StarVault.app` 时，先保留副本并移出安装位置，再交给 Homebrew 管理。
+桌面 Cask 同时依赖 CLI 和 Python，应用内置后端代码与星匣图标。应用为 ad-hoc 签名，尚未 Apple 公证；安装说明以 [v0.1.1 Release](https://github.com/cpython666/starvault/releases/tag/v0.1.1) 为准。卸载不删除聊天备份、图片或 Skill；软件代码仓库与用户的私有聊天备份仓库独立。已有手动安装的 `StarVault.app` 时，先保留副本并移出安装位置，再交给 Homebrew 管理。
