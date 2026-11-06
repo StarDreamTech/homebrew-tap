@@ -82,6 +82,6 @@ brew trust --formula cpython666/tap/starvault
 brew trust --cask cpython666/tap/starvault
 ```
 
-桌面 Cask 同时依赖 CLI 和 Python，应用内置后端代码与星匣图标。应用为 ad-hoc 签名，尚未 Apple 公证；安装说明以 [v0.1.2 Release](https://github.com/cpython666/starvault/releases/tag/v0.1.2) 为准。卸载不删除聊天备份、图片或 Skill；软件代码仓库与用户的私有聊天备份仓库独立。已有手动安装的 `StarVault.app` 时，先保留副本并移出安装位置，再交给 Homebrew 管理。
+桌面 Cask 同时依赖 CLI 和 Python，应用内置后端代码与星匣图标。应用为 ad-hoc 签名，尚未 Apple 公证；安装说明以 [v0.1.3 Release](https://github.com/cpython666/starvault/releases/tag/v0.1.3) 为准。卸载不删除聊天备份、图片或 Skill；软件代码仓库与用户的私有聊天备份仓库独立。已有手动安装的 `StarVault.app` 时，先保留副本并移出安装位置，再交给 Homebrew 管理。
 
-星匣 0.1.2 新增“设置 → 分享软件”：中英文文案与六张产品介绍图，可复制文案/图片或保存 PNG。素材为固定原创示例，与本地聊天档案独立。
+星匣 0.1.3 将设置分类移到左侧，右侧内容独立滚动；“分享软件”提供中英文文案与六张产品介绍图，可复制文案/图片或保存 PNG。素材为固定原创示例，与本地聊天档案独立。
