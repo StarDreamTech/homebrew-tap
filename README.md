@@ -65,3 +65,21 @@ brew uninstall --cask cpython666/tap/starshot
 ```
 
 升级前保存或备份当前编辑并退出星镜。Cask 仅管理应用，没有卸载脚本或 `zap`，不主动删除本机恢复点。应用使用 MIT 许可，OCR模型保留自身许可与来源。当前Cask只含macOS包；Windows安装包见星镜Release。
+
+## 星匣 StarVault
+
+星匣保存和检索 AI 聊天记录，支持增量备份、按需复制图片/文件与 Skill 迁移，提供桌面端、CLI 和 MCP。软件源码：[cpython666/starvault](https://github.com/cpython666/starvault)。
+
+```sh
+brew install cpython666/tap/starvault          # CLI、MCP、Skill：macOS / Linux
+brew install --cask cpython666/tap/starvault   # 桌面端：Apple Silicon macOS
+```
+
+如新版 Homebrew 提示未信任包，请先检查 Formula / Cask，再仅信任对应产品：
+
+```sh
+brew trust --formula cpython666/tap/starvault
+brew trust --cask cpython666/tap/starvault
+```
+
+桌面 Cask 同时依赖 CLI 和 Python，应用内置后端代码与星匣图标。应用为 ad-hoc 签名，尚未 Apple 公证；安装说明以 [v0.1.0 Release](https://github.com/cpython666/starvault/releases/tag/v0.1.0) 为准。卸载不删除聊天备份、图片或 Skill；软件代码仓库与用户的私有聊天备份仓库独立。已有手动安装的 `StarVault.app` 时，先保留副本并移出安装位置，再交给 Homebrew 管理。
