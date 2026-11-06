@@ -1,6 +1,6 @@
 cask "starvault" do
-  version "0.1.1"
-  sha256 "983c119026b167ad7a450297a6381613143119ccef5d14b699e774c661d08d05"
+  version "0.1.2"
+  sha256 "d54b15565aa0a26e70340f181157ada557aee3a3e669a0ec9c9f228dbe685ea0"
 
   url "https://github.com/cpython666/starvault/releases/download/v#{version}/StarVault-#{version}-macos-arm64.zip"
   name "StarVault"

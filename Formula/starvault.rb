@@ -1,8 +1,8 @@
 class Starvault < Formula
   desc "Local AI conversation archives, incremental backup, attachments and MCP"
   homepage "https://github.com/cpython666/starvault"
-  url "https://github.com/cpython666/starvault/releases/download/v0.1.1/StarVault-0.1.1-source.tar.gz"
-  sha256 "11e9d0978bb0a86bc8029dbe0ea605c6f04dd2f1613737f4b4ba263155629882"
+  url "https://github.com/cpython666/starvault/releases/download/v0.1.2/StarVault-0.1.2-source.tar.gz"
+  sha256 "1309fac690580252c88447dcd8612ec446d22fb6f8e9d533a96e30ce726f9ec9"
   license "MIT"
 
   depends_on "python@3.14"
