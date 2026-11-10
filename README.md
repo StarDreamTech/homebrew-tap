@@ -48,7 +48,7 @@ Tap 使用 MIT 许可证。软件本身的许可和功能范围以源代码仓�
 
 星镜是独立的本地截图、标注、敏感信息遮盖、置顶贴图和图片美化工具，不提供长期剪贴历史。源码：[cpython666/starshot](https://github.com/cpython666/starshot)。
 
-提供 [v0.3.1](https://github.com/cpython666/starshot/releases/tag/v0.3.1)，支持 **Apple Silicon Mac、macOS 12 Monterey 及以上**：
+提供 [v0.3.2](https://github.com/cpython666/starshot/releases/tag/v0.3.2)，支持 **Apple Silicon Mac、macOS 12 Monterey 及以上**：
 
 ```sh
 brew install --cask cpython666/tap/starshot
@@ -56,7 +56,7 @@ brew install --cask cpython666/tap/starshot
 
 该包为 ad-hoc 签名，尚未 Apple 公证，首次启动可能受系统拦截；Cask 不绕过 quarantine 或系统安全检查。安装前请查看发布说明；已有手动安装的 `Starshot.app` 时，不要用 `--force` 覆盖，尤其不要降级打开较新版恢复点。
 
-星镜支持应用内手动检查更新，因此 Cask 标记 `auto_updates true`。0.3.1 已进入应用内更新通道，截图后可在选区下方直接标注、复制、保存和贴图，需要时再打开完整编辑页。通过 Homebrew 升级时需包含 `--greedy`：
+星镜支持应用内手动检查更新，因此 Cask 标记 `auto_updates true`。0.3.2 提供竖向/横向长截图、主动自动滚动、累计预览，以及托盘、快捷键设置与分享预览改进；长截图复杂页面和双平台完整原生采集仍待验收，具体限制见发布说明。截图后可在选区下方直接标注、复制、保存和贴图，需要时再打开完整编辑页。通过 Homebrew 升级时需包含 `--greedy`：
 
 ```sh
 brew update

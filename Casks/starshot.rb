@@ -1,6 +1,6 @@
 cask "starshot" do
-  version "0.3.1"
-  sha256 "bbd926e229248afa8533dafa31755060ed216029d45b1b2d4a7a7810b12a86ee"
+  version "0.3.2"
+  sha256 "c1ebc39e9cae4cafbb5c08c307f4ff2aca07bb802ae8caf392496b8227d68eb4"
 
   url "https://github.com/cpython666/starshot/releases/download/v#{version}/Starshot_#{version}_aarch64.dmg"
   name "Starshot"
@@ -20,8 +20,8 @@ cask "starshot" do
   app "Starshot.app"
 
   caveats <<~EOS
-    This is Starshot 0.3.1 for Apple Silicon Macs.
+    This is Starshot 0.3.2 for Apple Silicon Macs.
     It is not Apple-notarized; macOS may block the first launch.
-    See the release notes before installing: https://github.com/cpython666/starshot/releases/tag/v0.3.1
+    See the release notes before installing: https://github.com/cpython666/starshot/releases/tag/v0.3.2
   EOS
 end
