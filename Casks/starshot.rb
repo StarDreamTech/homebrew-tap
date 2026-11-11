@@ -2,11 +2,11 @@ cask "starshot" do
   version "0.3.2"
   sha256 "c1ebc39e9cae4cafbb5c08c307f4ff2aca07bb802ae8caf392496b8227d68eb4"
 
-  url "https://github.com/cpython666/starshot/releases/download/v#{version}/Starshot_#{version}_aarch64.dmg"
+  url "https://github.com/StarDreamTech/starshot/releases/download/v#{version}/Starshot_#{version}_aarch64.dmg"
   name "Starshot"
   name "星镜"
   desc "Local-first screenshot, annotation and image pinning tool"
-  homepage "https://github.com/cpython666/starshot"
+  homepage "https://github.com/StarDreamTech/starshot"
 
   livecheck do
     url :url
@@ -22,6 +22,6 @@ cask "starshot" do
   caveats <<~EOS
     This is Starshot 0.3.2 for Apple Silicon Macs.
     It is not Apple-notarized; macOS may block the first launch.
-    See the release notes before installing: https://github.com/cpython666/starshot/releases/tag/v0.3.2
+    See the release notes before installing: https://github.com/StarDreamTech/starshot/releases/tag/v0.3.2
   EOS
 end
