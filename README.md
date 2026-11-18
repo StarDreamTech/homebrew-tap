@@ -1,6 +1,11 @@
 # 星空系列 · Homebrew Tap
 
+[简体中文](README.md) | [English](README.en.md)
+
+
 星空系列应用维护的 Homebrew 安装源。下方保留星笺的独立安装说明，星镜截图工具见「星镜 Starshot」一节。星笺提供本地剪贴历史与代码收藏，软件源码：[StarDreamTech/starclip](https://github.com/StarDreamTech/starclip)。
+
+> 以下保留早期版本的安装与验收记录。当前安装版本请以 [星笺 Cask](Casks/starclip.rb)、[星镜 Cask](Casks/starshot.rb)、[星匣 Cask](Casks/starvault.rb) 为准。
 
 ## 安装
 
